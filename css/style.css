@@ -67,8 +67,6 @@ header .navbar {
     .card .data .content {
       padding-left: 10px;
       padding-bottom: 20px; }
-  .card .title .detail {
-    display: flex; }
   .card .text {
     height: 70px;
     margin: 0; }
@@ -77,33 +75,52 @@ header .navbar {
   .card input[type='checkbox']:checked + .menu-content {
     transform: translateY(-60px); }
 
-.example-1 .wrapper {
-  background: url(../image/z1.jpg) 20% 1%/cover no-repeat; }
-.example-1 .date {
+.example-1 .p1 {
+  background: url(../image/p1.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p2 {
+  background: url(../image/p2.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p3 {
+  background: url(../image/p3.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p4 {
+  background: url(../image/p4.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p5 {
+  background: url(../image/p5.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p6 {
+  background: url(../image/p6.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p7 {
+  background: url(../image/p7.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p8 {
+  background: url(../image/p8.jpg) 20% 1%/cover no-repeat; }
+.example-1 .p9 {
+  background: url(../image/p9.jpg) 20% 1%/cover no-repeat; }
+.example-1 .date1 {
   position: absolute;
   top: 0;
   left: 0;
   background-color: #000;
   color: #fff;
   padding: 0.4em; }
-  .example-1 .date span {
+  .example-1 .date1 span {
     display: block;
     text-align: center; }
-  .example-1 .date .day {
-    font-weight: 700;
-    font-size: 24px;
-    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18); }
-  .example-1 .date .month {
-    text-transform: uppercase; }
-  .example-1 .date .month,
-  .example-1 .date .year {
-    font-size: 12px; }
+.example-1 .date2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f44336;
+  color: #fff;
+  padding: 0.4em; }
+  .example-1 .date2 span {
+    display: block;
+    text-align: center; }
 .example-1 .content {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.747);
   box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3); }
 .example-1 .title a {
-  color: gray;
+  color: #1c2833;
   font-size: 26px; }
+.example-1 .title .detail {
+  display: flex; }
 .example-1 .menu-button {
   position: absolute;
   z-index: 999;
@@ -144,7 +161,6 @@ header .navbar {
   .example-1 .menu-content li {
     width: 33.333333%;
     float: left;
-    background-color: #77d7b9;
     height: 60px;
     position: relative; }
   .example-1 .menu-content a {
