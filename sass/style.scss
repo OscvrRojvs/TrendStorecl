@@ -1,11 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 // Variables
 $regal-blue: rgb(28, 40, 51) ;
-$san-juan: #2d4e68;
+$san-juan: #B6DC76;
 $bermuda: #77d7b9;
 $white: #fff;
 $black: #000;
-$red: rgb(244, 67, 54);
+$red: #C1292E;
+$green: #3EC300;
+$yellow: #F1D302;
+$melon: #DBFF76;
+$wine: #6A2E35;
+$winelight: #B22C3C;
+$fontnav: 'Fredoka One';
 $open-sans: 'Open Sans',
 sans-serif;
 // clear-fix mixin
@@ -25,7 +31,7 @@ sans-serif;
 }
 
 body {
-  background-image: linear-gradient(to right, $white, $san-juan);
+  background-image: linear-gradient(to right, $melon, $san-juan);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -49,6 +55,15 @@ b{
 header{
     .navbar{
         margin: 50px 0;
+      border-radius: 20px;
+      .navbar-nav{
+        padding-left: 50px;
+        a{
+          font-family: $fontnav;
+          font-size: 1.5rem;
+          color: $wine;
+        }
+      }
     }
 }
 

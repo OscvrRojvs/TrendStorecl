@@ -3,7 +3,7 @@
   box-sizing: border-box; }
 
 body {
-  background-image: linear-gradient(to right, #fff, #2d4e68);
+  background-image: linear-gradient(to right, #DBFF76, #B6DC76);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -21,7 +21,14 @@ b {
   font-size: x-large; }
 
 header .navbar {
-  margin: 50px 0; }
+  margin: 50px 0;
+  border-radius: 20px; }
+  header .navbar .navbar-nav {
+    padding-left: 50px; }
+    header .navbar .navbar-nav a {
+      font-family: "Fredoka One";
+      font-size: 1.5rem;
+      color: #6A2E35; }
 
 .card {
   padding: 0;
@@ -107,7 +114,7 @@ header .navbar {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #f44336;
+  background-color: #C1292E;
   color: #fff;
   padding: 0.4em; }
   .example-1 .date2 span {
